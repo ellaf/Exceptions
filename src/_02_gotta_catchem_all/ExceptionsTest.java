@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 
-class ExceptionsTest {
+class hub {
 	ExceptionMethods em = new ExceptionMethods();
 	
 	//1. This is an example of how one might test that an exception is thrown.
