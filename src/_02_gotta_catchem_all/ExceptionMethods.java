@@ -10,4 +10,14 @@ public class ExceptionMethods {
 	}
 	return banana;
 	}
+	
+	public String reverseString(String a) {
+		
+		
+		
+		
+		return "hi";
+		
+		
+	}
 }
