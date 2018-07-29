@@ -28,6 +28,14 @@ public class ExceptionsDemo {
 		//    You can use the Exception class's printStackTrace() method
 		//    to print a list of methods that are currently in scope.
 		
+		try {
+			testMethod1(7);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.out.println("try again sweaty");
+			e.printStackTrace();
+		}
+		
 		// 3. Create a new class called CustomException that extends Exception.
 		//    Add a void method called terminate that simply calls System.exit(0);
 		

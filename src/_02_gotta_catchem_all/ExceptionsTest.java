@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 
-class hub {
+class ExceptionsTest {
 	ExceptionMethods em = new ExceptionMethods();
 	
 	//1. This is an example of how one might test that an exception is thrown.
@@ -48,7 +48,14 @@ class hub {
 	//5. Complete the JUnit test method to test the reverseStringMethod.
 	@Test
 	public void testReverseString() {
-		
+		try {
+			em.reverseString("");
+			fail("IllegalStateException not thrown");
+		} catch (Exception e) {
+			e.printStackTrace();
+			assertEquals("enohpananab", em.reverseString("bananaphone"));
+			// TODO: handle exception
+		}
 	}
 	
 	
